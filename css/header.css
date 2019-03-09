@@ -1,0 +1,132 @@
+/*头部*/
+*{
+	font-family: Arial;
+}
+.c_header{
+	width: 100%;
+	position:fixed;
+	left:0px;
+	top:0;
+	z-index:9;
+	/*transition: 1s;*/
+}
+/*上灰色导航条通栏背景色*/
+.c_header_gray{
+	height: 40px;
+	background: #e7e7e7;
+}
+/*上灰色导航条内容*/
+dl.c_gray_nav{
+	width: 960px;
+	margin: 0 auto;
+}
+dl.c_gray_nav>dt,dl.c_gray_nav>dd{
+	float: left;
+	line-height: 40px;
+	font-size: 18px;
+	color: #666;
+}
+/*上灰色导航条内容右边*/
+dl.c_gray_nav>dd>a{
+	color: #666;
+}
+dl.c_gray_nav>dd>a:hover{
+	color: #70c201;
+}
+dl.c_gray_nav>dd:nth-child(4)>a:hover{
+	color: #666;
+}
+dl.c_gray_nav>dd{
+	margin-right: 20px;
+}
+dl.c_gray_nav>dd:nth-child(2){
+	margin-left: 552px;
+}
+/*logo导航条背景通栏*/
+#c_header_logo{
+	height: 80px;
+	background: #fff;
+	/*background: pink;*/
+}
+/*logo导航条内容*/
+.c_logo_nav{
+	width: 1167px;
+	margin: 0 auto;
+}
+/*logo导航条内容左边*/
+.c_logo_nav>img{
+	margin-top: 19px;
+}
+.c_logo_nav>ul>li{
+	float: left;
+	font-size: 20px;
+	line-height: 80px;
+	font-weight: bold;
+	color: #3a2800;
+	margin-left: 30px;
+}
+.c_logo_nav>ul>li:nth-child(1){
+	margin-left: 17px;
+}
+.c_logo_nav>ul>li>a,.c_navRight>a{
+	color: #3a2800;
+	padding-bottom: 8px;
+}
+.c_logo_nav>ul>li>a:hover{
+	color: #71c400;
+	border-bottom: 3px solid #b4a078;
+}
+/*logo导航条内容右边*/
+.c_navRight{
+	font-size: 25px;
+	color: #d30909;
+	font-weight: bolder;
+	line-height: 80px;
+}
+/*手机图标*/
+.c_navRight>a:hover,.c_navUl ul>li>a:hover{
+	color: #71c400;
+}
+.c_navRight>a>span{
+	font-size: 18px;
+}
+/*导航条下拉块一级菜单*/
+.c_navUl>li{
+	position:relative;
+}
+.c_navUl ul>li>a{
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	color: #3a2800;
+	padding: 10px 18px;
+}
+/*导航条下拉块二级菜单*/
+.c_navUl>li>ul{
+	display: none;
+	width: 111px;
+	position:absolute;
+	top: 62px;
+	left: -10px;
+	background: #fff;
+	/*background: yellow;*/
+}
+/*导航条下拉块三级菜单*/
+.c_navUl>li>ul>li>ul{
+	position:absolute;
+	top: 0;
+	left:100px;
+	width: 125px;
+	background: #fff;
+	display: none;
+}
+.c_navUl>li>ul>li:nth-child(2)>ul{
+	position:absolute;
+	top: 40px;
+	left:100px;
+}
+.c_navUl>li>ul>li:nth-child(3)>ul{
+	position:absolute;
+	top: 80px;
+	left:100px;
+}

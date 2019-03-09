@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>圣雨文化官网</title>
+	<link rel="icon" href="../favicon.ico">
+    <meta name="keywords" content="圣雨文化官网">
+	<meta name="Description" content="圣雨文化官网">
+	<meta name="author" content="cxf">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../img/c_font_1078536_iohhaiao0sa/iconfont.css">
+	<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+	<script>
+//	      下拉块
+		$(function() {
+		    $(".c_navUl li").hover(function() {
+			    $(this).has("ul").children("ul").fadeIn(500);
+			},function() {
+			    $(this).has("ul").children("ul").slideUp();
+		  });
+		   $(".newBor ul").hover(function() {
+			    $(".newBor>a").css("borderBottom","3px solid #b4a078");
+			},function() {
+   				$(".newBor>a").css("borderBottom","none");
+		   });
+		})
+//		固定导航条
+		$(window).scroll(function() {
+		    if ($(window).scrollTop() > 120) {
+		        $('#c_header').addClass('c_header');
+		    } else if ($(window).scrollTop() < 120) {
+		        $('#c_header').removeClass('c_header');
+		    }
+		})
+	</script>
+</head>
+<body>
+	<!--头部盒子开始-->
+	<header id="c_header">
+		<!--上灰色导航条-->
+		<div class="c_header_gray">
+			<!--上灰色导航条内容-->
+			<dl class="c_gray_nav clearfix">
+				<dt>综合性文化产业公司</dt>
+				<dd><a href="#">设计师入口</a></dd>
+				<dd><a href="#">天猫商城</a></dd>
+				<dd><a href="#"><span class="iconfont icon-fangdajing"></span></a></dd>
+			</dl>
+		</div>
+		<!--上灰色导航条-->
+		<!--logo导航条-->
+		<div id="c_header_logo">
+			<!--logo导航条内容-->
+			<div class="c_logo_nav clearfix">
+				<img src="../img/c_SVlogo.png" height="44px" class="fl">
+				<ul class="c_navUl fl">
+					<li><a href="#">首页</a></li>
+					<li><a href="#">关于圣雨</a></li>
+					<li class="newBor"><a href="#">新闻资讯</a>
+						<!--二级菜单-->
+						<ul>
+							<li><a href="#">经典类</a>
+								<!--三级菜单-->
+						        <ul>
+						            <li><a href="#">javascript</a></li>
+						            <li><a href="#">css</a></li>
+						            <li><a href="#">jquery</a></li>
+						        </ul>
+						        <!--三级菜单-->
+					        </li>
+				        	<li><a href="#">灵动类</a>
+						        <ul>
+						            <li><a href="#">ios开发</a></li>
+						            <li><a href="#">android</a></li>
+						            <li><a href="#">WP开发</a></li>
+						        </ul>
+				      		</li>
+				        	<li><a href="#">户外开发</a>
+				        		<!--三级菜单-->
+						        <ul>
+						            <li><a href="#">javascript</a></li>
+						            <li><a href="#">css</a></li>
+						            <li><a href="#">jquery</a></li>
+						        </ul>
+						        <!--三级菜单-->
+				        	</li>
+				        </ul>
+				        <!--二级菜单-->
+					</li>
+					<li><a href="#">友好往来</a>
+						<ul>
+							<li><a href="#">前端课程 </a></li>
+				        	<li><a href="#">手机开发</a></li>
+				        	<li><a href="#">后台编程</a></li>
+				        </ul>
+					</li>
+					<li><a href="#">交流活动</a></li>
+					<li><a href="#">活动伙伴</a></li>
+				</ul>
+				<span class="c_navRight fr">
+					<a href="#"><span class="iconfont icon-shouji1"></span></a>
+					400-500-4256
+				</span>
+			</div>
+		</div>
+		<!--logo导航条-->
+	</header>
+	<!--头部盒子结束-->
+</body>
+</html>
