@@ -1,0 +1,242 @@
+/*轮播开始*/
+.lunbo {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.lunbo>img {
+	width: 100%;
+	height: 100%;
+}
+.lunbo>img:nth-child(2) {
+	display: none;
+}
+.lunbo>span {
+	position: absolute;
+	z-index: 999;
+	top: 382px;
+	left: 63px;
+	color: #fff;
+	/*width: 20px;
+	font-size: 1px;*/
+}
+/*关于圣雨开始*/
+.aboutSy {
+	width: 1162px;
+	height: 379px;
+	margin: 0 auto;
+	background: #FFFFF9;
+}
+.aboutSy>.aboutSy_right {
+	width: 581px;
+	height: 100%;
+}
+.aboutSy_right>img {
+	width: 100%;
+	height: 100%;
+}
+.aboutSy>.aboutSy_left {
+	width: 451px;
+	height: 100%;
+	padding: 0px 65px 0 65px;
+}
+.aboutSy_left>h2 {
+	color: #4c4c4c;
+	font-family: "微软雅黑";
+	font-size: 25px;
+	margin-top: 50px;
+	/*margin-bottom: 5px;*/
+}
+.aboutSy_left>span {
+	color:#9999b2;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.aboutSy_left>p {
+	color: #9999b2;
+	font-size: 14px;
+	line-height: 40px;
+	font-family: "微软雅黑";
+	margin-top: 30px;
+}
+.aboutSy_left>b {
+	display: inline-block;
+	width: 184px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #9999B2;
+	border: 1px solid #9999B2;
+	margin-top: 38px;
+	border-radius: 0 25px 0 25px ;
+	transition: 0.5s;
+}
+.aboutSy_left>b:hover {
+	border-radius: 25px 0 25px 0;
+	border: 1px solid red;
+	color: red;
+}
+/*新闻部分开始*/
+.zzlNew {
+	height: 900px;
+	width: 967px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 100px;
+}
+.zzlNew .zzlNew_left {
+	width: 450px;
+    margin-right: 100px;
+}
+.zzlNew .zzlNew_left_img b{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 60px;
+	height: 60px;
+	background: #EE1D23;
+	color: #fff;
+	font-size: 60px;
+	text-align: center;
+	transition: 0.5s;
+}
+.zzlNew .zzlNew_left_img {
+	position: relative;
+	width: 414px;
+	height: 285px;
+	border-top: 2px solid #000;
+	transition: 1s;
+}
+.zzlNew .zzlNew_left_img img {
+	width: 100%;
+	height: 100%;
+	-webkit-filter: grayscale(1);/* Webkit */ 
+filter:gray;/* IE6-9 */ 
+filter: grayscale(1);/* W3C */ 
+}
+.zzlNew .zzlNew_left_img img:hover{
+	-webkit-filter: grayscale(0);/* Webkit */ 
+filter:none;/* IE6-9 */ 
+filter: grayscale(0);/* W3C */ 
+}
+.zzlNew .zzlNew_right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 1px solid #ccc;
+	padding-left: 66px;
+	
+	width: 450px;
+	height: 900px;
+
+}
+.zzlNew h2 {
+	width: 412px;
+	margin: 30px 0 20px 0;
+}
+.zzlNew h2 a{
+	color: #333;
+	font-size: 20px;
+	font-family: "微软雅黑";
+}.zzlNew p {
+	margin-bottom: 50px;
+}
+.zzlNew p a {
+	color: #333;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.zzlNew_right>h1 {
+	text-align: center;
+	width: 350px;
+	height: 80px;
+	line-height: 80px;
+	background: url(../img/2019-03-09_144827.png) no-repeat;
+	color: #333;
+	font-size: 40px;
+	font-family: "微软雅黑";
+	margin: 82px 0 103px 21px;
+}
+/*raedMore开始*/
+.raedMore {
+	width: 200px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	margin-left: 510px;
+	margin-top: 3px;
+	margin-bottom: 66px;
+	 
+}
+.raedMore b {
+	display: inline-block;
+	width: 1px;
+	height: 72px;
+	background: #ccc;
+	opacity: 0.5;
+	
+}
+.raedMore p a{
+	color: #ccc;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	opacity: 0.5;
+}
+/*右上角滑动部分*/
+#guding {
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+}
+#guding>span {
+	position: absolute;
+	left: -60px;
+	top: 10px;
+	width: 32px;
+	height: 29px;
+	color: #ccc;
+	padding-left: 10px;
+	padding-top: 13px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	cursor:pointer;
+}
+#guding>dl {
+	height: 100%;
+	width: 242px;
+	display: none;
+}
+#guding>dl dt img {
+	height: 92px;
+	width: 156px;
+	margin: 84px 0 68px 43px;
+}
+#guding>dl dd {
+	margin-bottom: 30px;
+	position: relative;
+}
+#guding>dl dd a {
+	display: inline-block;
+	color: #ccc;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	margin-left: 43px;
+}
+#guding>dl dd span{
+	position: absolute;
+	top: 10px;
+	left: 0;
+	color: #fff;
+	display: none;
+}
+#guding>dl dd a:hover {
+	color: #fff;
+}
+#guding>dl dd:nth-child(2) span {
+	display: block;
+	padding: ;
+}
