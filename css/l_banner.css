@@ -1,0 +1,223 @@
+body {
+				font-size: 100%;
+			}
+			
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			h6 {
+				font-size: 100%;
+			}
+			
+			.loading {
+				background: url(../img/c_loading.gif) 50% no-repeat;
+			}
+			
+			.loading .scrollpage {
+				opacity: 0;
+			}
+			
+			.scrollpage {
+				-webkit-transition: opacity 1s;
+				-moz-transition: opacity 1s;
+				-o-transition: opacity 1s;
+				transition: opacity 1s;
+			}
+			
+			.ms-section {
+				font-family: "Microsoft Yahei";
+				color: #fff;
+			}
+			
+			.ms-section {
+				background-position: 50% 50%;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			
+			.ms-section10 {
+				background-color: #000;
+			}
+			
+			.ms-left .ms-section1 {
+				background-image: url(../img/c_l2.jpg);
+			}
+			
+			.ms-left .ms-section2 {
+				background-image:  url(../img/c_l1.jpg);
+			}
+			
+			.ms-left .ms-section3 {
+				background-color: #000;
+			}
+			
+			.ms-left .ms-section4 {
+				background-image:  url(../img/c_l1.jpg);
+			}
+			
+			.ms-left .ms-section4.down {
+				background-image:  url(../img/c_l1.jpg);
+			}
+			
+			.ms-left .ms-section5 {
+				background-image:  url(../img/c_l1.jpg);
+			}
+			
+			.ms-left .ms-section6 {
+				background-image:  url(../img/c_l1.jpg);
+			}
+			
+			.ms-left .ms-section7 {
+				background-image:  url(../img/c_l1.jpg);
+			}
+			
+			.ms-left .ms-section8 {
+				background-color: #000;
+			}
+			
+			.ms-left .ms-section9 {
+				background-image: url(../img/c_l1.jpg);
+			}
+			
+			.ms-right .ms-section1 {
+				background-image: url(../img/c_r2.jpg);
+			}
+			
+			.ms-right .ms-section2 {
+				background-image: url(../img/c_r1.jpg);
+			}
+			
+			.ms-right .ms-section3 {
+				background-image: url(../img/c_r1.jpg);
+			}
+			
+			.ms-right .ms-section3.turnOn {
+				background-image: url(../img/c_r1.jpg);
+			}
+			
+			.ms-right .ms-section4 {
+				background-color: #000;
+			}
+			
+			.ms-right .ms-section5 {
+				background-image: url(../img/c_r1.jpg);
+			}
+			
+			.ms-right .ms-section6 {
+				background-image: url(../img/c_r1.jpg);
+			}
+			
+			.ms-right .ms-section7 {
+				background-color: #000;
+			}
+			
+			.ms-right .ms-section8 {
+				background-image: url(../img/c_r1.jpg);
+			}
+			
+			.ms-right .ms-section9 {
+				background-image: url(../img/c_r1.jpg);
+			}
+			
+			.ms-left .ms-section1 h1 strong {
+				line-height: 1.1em;
+				font-size: 6em;
+				text-transform: uppercase;
+				text-shadow: -2px 2px 0 #a6acae;
+			}
+			
+			.ms-left .ms-section1 h1 span {
+				display: block;
+			}
+			
+			.ms-section1 .txt {
+				position: relative;
+				left: -100%;
+				top: 15%;
+				opacity: 0;
+				transition-duration: 0.5s;
+			}
+			
+			.green-box {
+				display: inline-block;
+				margin-top: 30px;
+				padding: 6px 10px;
+				line-height: 1.2em;
+				font-size: 2.5em;
+				background: url(../img/c_bg-greenbox.png) right;
+				*display: inline;
+				zoom: 1;
+			}
+			.button {
+				display: inline-block;
+				margin-top: 30px;
+				padding: 7px 73px 7px 25px;
+				font-size: 1.5em;
+				color: #fff;
+				text-decoration: none;
+				background: url(../img/c_button.gif) right;
+			}
+			
+			.button2 {
+				padding: 7px 25px 7px 60px;
+				background: url(../img/c_button-left.gif) 0 no-repeat;
+			}
+			
+			.ms-section .txt2 {
+				position: relative;
+				top: 20%;
+				padding: 0 15%;
+			}
+			
+			.ms-section .txt2 h2 {
+				margin-bottom: 30px;
+				font-size: 5em;
+				line-height: 1.1em;
+				text-shadow: -2px 2px 0 #a6acae;
+				text-transform: uppercase;
+			}
+			
+			.ms-section .txt2 h2 span {
+				display: block;
+			}
+			
+			.ms-section .txt2 h3 {
+				margin: 20px 0;
+				font-size: 3em;
+			}
+			
+			.ms-section .txt2 p {
+				font-size: 2em;
+			}
+			
+			.ms-section2 .txt2 {
+				position: absolute;
+				left: 0;
+				top: 75%;
+				width: 100%;
+				padding: 0;
+				text-align: center;
+			}
+			
+			.ms-left .txt2 {
+				left: -100%;
+				transition-duration: 0.5s;
+			}
+			
+			.ms-right .txt2 {
+				left: 100%;
+				transition-duration: 0.5s;
+			}
+			
+			.active .txt2 {
+				left: 0;
+				transition-delay: 1s;
+			}
+			
+			.active .txt {
+				left: 20%;
+				opacity: 1;
+				transition-delay: 1s;
+			}
