@@ -71,4 +71,12 @@ $(document).ready(function() {
 	})
 
 //====================================================================
-	
+	//产品展示hover块
+	$(function(){
+		$("#c_BoxUl>ul>li").mouseenter(function(){
+			$(this).children().children(".c_pro_hover").show();
+		})
+		$("#c_BoxUl>ul>li").mouseleave(function(){
+			$(this).children().children(".c_pro_hover").hide();
+		})
+	})

@@ -1,0 +1,27 @@
+<MKM version="2.0" imageFileUrl="file:///C:/Users/chenxuefang/Desktop/%e9%87%8f%e5%9b%be/%e4%ba%a7%e5%93%81%e5%b1%95%e7%a4%ba.png">
+  <Marks>
+    <LengthMark x="233" y="123" color="16711680" length="196" direction="3"/>
+    <LengthMark x="16" y="170" color="16711680" length="250" direction="12"/>
+    <LengthMark x="267" y="325" color="16711680" length="20" direction="12"/>
+    <LengthMark x="17" y="268" color="16711680" length="101" direction="3"/>
+    <LengthMark x="143" y="319" color="16711680" length="186" direction="3"/>
+    <LengthMark x="380" y="343" color="16711680" length="19" direction="3"/>
+    <LengthMark x="425" y="374" color="16711680" length="15" direction="3"/>
+    <ColorMark x="307" y="344" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="106" y="382" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <LengthMark x="286" y="362" color="16711680" length="12" direction="12"/>
+    <LengthMark x="599" y="320" color="16711680" length="30" direction="3"/>
+    <LengthMark x="571" y="371" color="16711680" length="15" direction="3"/>
+    <LengthMark x="653" y="450" color="16711680" length="13" direction="12"/>
+    <LengthMark x="572" y="457" color="16711680" length="12" direction="3"/>
+    <LengthMark x="566" y="404" color="16711680" length="20" direction="3"/>
+    <LengthMark x="638" y="433" color="16711680" length="14" direction="3"/>
+    <LengthMark x="673" y="493" color="16711680" length="10" direction="12"/>
+    <LengthMark x="601" y="492" color="16711680" length="10" direction="3"/>
+    <ColorMark x="708" y="424" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="691" y="435" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="682" y="479" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <LengthMark x="521" y="468" color="16711680" length="6" direction="3"/>
+    <LengthMark x="1028" y="500" color="16711680" length="52" direction="12"/>
+  </Marks>
+</MKM>

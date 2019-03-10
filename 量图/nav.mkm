@@ -1,0 +1,13 @@
+<MKM version="2.0" imageFileUrl="file:///C:/Users/chenxuefang/Desktop/%e9%87%8f%e5%9b%be/nav.png">
+  <Marks>
+    <ColorMark x="114" y="30" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="66" y="52" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <LengthMark x="16" y="50" color="16711680" length="4" direction="3"/>
+    <LengthMark x="12" y="143" color="16711680" length="111" direction="12"/>
+    <LengthMark x="46" y="52" color="16711680" length="11" direction="3"/>
+    <LengthMark x="28" y="157" color="16711680" length="10" direction="3"/>
+    <LengthMark x="13" y="96" color="16711680" length="20" direction="12"/>
+    <LengthMark x="102" y="71" color="16711680" length="19" direction="12"/>
+    <LengthMark x="11" y="124" color="16711680" length="20" direction="12"/>
+  </Marks>
+</MKM>

@@ -135,35 +135,79 @@
 .c_Box .c_Box_con .btnl {left: -50px;}
 .c_Box .c_Box_con .btnr {right: -25px;}
 .c_Box .c_Box_con .btn:hover {opacity:0.8;}
-.c_Box .c_Box_con .conc_Box {position: relative;overflow: hidden;}
+.c_Box .c_Box_con .conc_Box {position: relative;}
 .c_Box .c_Box_con .conc_Box>ul {position: relative;list-style: none;}
 .c_Box .c_Box_con .conc_Box>ul>li {
 	float: left;
 	width: 250px;
-	height: 200px;
+	height: 382px;
 	margin:0 10px;
 	overflow: hidden;
 	position: relative;
+	transition: all 0.5s;
 }
 .c_Box .c_Box_con .conc_Box>ul>li:first-child {margin-left: 10px;}
-.c_Box .c_Box_con .conc_Box>ul>li>img {display: block;width: 250px;height: 196px;transition: all 0.5s;}
-.c_Box .c_Box_con .conc_Box>ul>li:hover>img {transform: scale(1.2);z-index: 99;}
+.c_Box .c_Box_con .conc_Box>ul>li>img {display: block;width: 250px;height: 196px;}
+.c_Box .c_Box_con .conc_Box>ul>li:hover{transform: scale(1.2);}
 
 /*产品图片下的字*/
-.conc_Box>ul #c_pro_zi{
+.conc_Box>ul .c_pro_zi{
 	width: 250px;
 	height: 185px;
 	background: #fff;
-	position: absolute;
-	top: 197px;
+	background: pink;
+	padding-left: 10px;
 }
-
-
-
-
-
-
-
+/*大标题*/
+.c_pro_zi>h3{
+	font-size: 19px;
+	font-family: arial;
+	color: #000;
+	padding-top: 30px;
+	margin-bottom: 8px;
+}
+.c_pro_zi>p{
+	font-size: 15px;
+	color: #808080;
+}
+/*hover出现块*/
+ul.c_pro_hover{
+	display: none;
+}
+ul.c_pro_hover>li{
+	float: left;
+	margin-top: 20px;
+}
+ul.c_pro_hover>li>a{
+	display: inline-block;
+	padding: 10px;
+	background: #ccc;
+	margin-right: 12px;
+	border-radius: 7px;
+	color: #3a2800;
+}
+/*右下角箭头*/
+.c_pro_jt{
+	width: 104px;
+	height: 104px;
+	border-radius: 50%;
+	background: #fff;
+	color: #3a2800;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 104px;
+	margin-right: -30px;
+}
+.c_pro_jt>span{
+	display: block;
+	font-size: 20px;
+	margin-right: 30px;
+	margin-top: -25px;
+}
+.c_pro_jt:hover,ul#c_pro_hover>li>a.c_hover{
+	background: #3a2800;
+	color: #ccc;
+}
 
 
 
